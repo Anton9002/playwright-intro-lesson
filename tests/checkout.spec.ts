@@ -15,7 +15,7 @@ test('shows success message when order created', async ({ page }) => {
 
 });
 
-test.only('default state validation', async ({ page }) => {
+test('default state validation', async ({ page }) => {
 
     await page.goto('https://shop.tl-academy.ee/checkout');
 
